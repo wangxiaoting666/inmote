@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--百度统计--> 
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a23aefdd69a522f7243307f98abff50a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  <title>室内定位解决方案</title>
+  <link rel="stylesheet" href="../assets/css/amazeui.css" />
+  <link rel="stylesheet" href="../assets/css/common.min.css" />
+  <link rel="stylesheet" href="../assets/css/join.min.css" />
+  <!--分享到朋友圈时候带图标-->
+<!--<div id='wx_pic' style='margin:0 auto;display:none;'>
+<img src='http://www.intmote.com/wp-content/uploads/2017/06/pic30.png' />
+</div>-->
+</head>
+<body>
+  <div class="layout">
+    <!--===========layout-header================-->
+     <div class="layout-header am-hide-sm-only">
+      <!--topbar start-->
+      <div class="topbar">
+        <div class="container">
+          <div class="am-g">
+            <div class="am-u-md-3">
+              <div class="topbar-left">
+                <i class="am-icon-globe"></i>
+                <div class="am-dropdown" data-am-dropdown>
+                  <button class="am-btn am-btn-primary am-dropdown-toggle" data-am-dropdown-toggle>语言 <span class="am-icon-caret-down"></span></button>
+                  <ul class="am-dropdown-content">
+                    <li><a href="http://english.intmote.com">英文</a></li>
+                    <li class="am-divider"></li>
+                    <li><a href="http://www.intmote.com">中文</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="am-u-md-9">
+            <!--  <div class="topbar-right am-text-right am-fr">
+                Follow us
+                <i class="am-icon-facebook"></i>
+                <i class="am-icon-twitter"></i>
+                <i class="am-icon-google-plus"></i>
+                <i class="am-icon-pinterest"></i>
+                <i class="am-icon-instagram"></i>
+                <i class="am-icon-linkedin"></i>
+                <i class="am-icon-youtube-play"></i>
+                <i class="am-icon-rss"></i>
+                
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--topbar end-->
+
+      <div class="header-box" data-am-sticky>
+        <!--header start-->
+          <div class="container">
+            <div class="header">
+              <div class="am-g">
+                <div class="am-u-lg-2 am-u-sm-12">
+                  <div class="logo">
+                    <a href=""><img src="../assets/images/logo.png" alt="" /></a>
+                  </div>
+                </div>
+              <div class="am-u-md-10">
+                  <div class="header-right am-fr">
+                    <div class="header-contact">
+                      <div class="header_contacts--item">
+  											<div class="contact_mini">
+  												<i style="color:#7c6aa6" class="contact-icon am-icon-phone"></i>
+  												<span>021-64361545</span>
+  												<span>周一至周五 9:00-18:00</span>
+  											</div>
+  										</div>
+                      <div class="header_contacts--item">
+  											<div class="contact_mini">
+  												<i style="color:#7c6aa6" class="contact-icon am-icon-envelope-o"></i>
+  												<span>daiwj@intmote.com
+</span>
+  												<span>随时欢迎你的来信。</span>
+  											</div>
+  										</div>
+                      <div class="header_contacts--item">
+  											<div class="contact_mini">
+  												<i style="color:#7c6aa6" class="contact-icon am-icon-map-marker"></i>
+  												<span>上海市徐汇区漕宝路86号 </span>
+  												<span>光大会展中心F座2201 </span>
+  											</div>
+  										</div>
+                    </div>
+                    <!--<a href="" class="contact-btn">
+                      <button type="button" class="am-btn am-btn-secondary am-radius"  data-am-scrollspy="{animation:'slide-right', delay: 100}">联系我们</button>
+                    </a>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--header end-->
+
+
+        <!--nav start-->
+        <div class="nav-contain">
+          <div class="nav-inner">
+            <ul class="am-nav am-nav-pills am-nav-justify">
+              <li class=""><a href="../index.html">首页</a></li>
+              <li>
+                <a href="./product1.html">产品</a>
+                <!-- sub-menu start-->
+                <ul class="sub-menu">
+									<!--<li class="menu-item"><a href="">Product display 1</a></li>-->
+									
+								</ul>
+                <!-- sub-menu end-->
+              </li>
+              <li><a href="./example.html">案例</a></li>
+              <li><a href="./solution.html">方案</a></li>
+              <li>
+                <a href="./news.html">资讯</a>
+                <!-- sub-menu start-->
+               
+                <!-- sub-menu end-->
+              </li>
+       
+              <li><a href="./join.html">加盟</a></li>
+              <li><a href="./contact.html">我们</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--nav end-->
+      </div>
+
+    </div>
+    
+    
+    <!--mobile header start-->
+  <div class="m-header">
+      <div class="am-g am-show-sm-only">
+        <div class="am-u-sm-2">
+          <div class="menu-bars">
+            <a href="#doc-oc-demo1" data-am-offcanvas="{effect: 'push'}"><i class="am-menu-toggle-icon am-icon-bars"></i></a>
+            <!-- 侧边栏内容 -->
+            <nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1" data-am-menu-offcanvas >
+              <a href="javascript: void(0)" class="am-menu-toggle"></a>
+
+              <div class="am-offcanvas" >
+                <div class="am-offcanvas-bar">
+                  <ul class="am-menu-nav am-avg-sm-1">
+                    <li><a href="../index.html" class="" >首页</a></li>
+                    <li class="">
+                      <a href="./product1.html" class="" >产品中心</a>
+                      <ul class="am-menu-sub am-collapse ">
+                       
+                      
+                      </ul>
+                    </li>
+                    <li class=""><a href="./example.html" class="" >客户案例</a></li>
+                    <li class=""><a href="./solution.html" class="" >解决方案</a></li>
+                    <li class="">
+                      <a href="./news.html" class="" >新闻中心</a>
+                     
+                    </li>
+                    
+                    <li class=""><a href="./join.html" class="" >加入我们</a></li>
+                    <li class=""><a href="./contact.html" class="" >联系我们</a></li>
+                    <li class="am-parent">
+                      <a href="./news.html" class="nav-icon nav-icon-globe" >语言</a>
+                      <ul class="am-menu-sub am-collapse  ">
+                        <li>
+                          <a href="http://english.intmote.com" >英文</a>
+                        </li>
+                        <li class="">
+                          <a href="http://www.intmote.com/" >中文</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-share-contain">
+                      <div class="nav-share-links">
+                        <i class="am-icon-facebook"></i>
+                        <i class="am-icon-twitter"></i>
+                        <i class="am-icon-google-plus"></i>
+                        <i class="am-icon-pinterest"></i>
+                        <i class="am-icon-instagram"></i>
+                        <i class="am-icon-linkedin"></i>
+                        <i class="am-icon-youtube-play"></i>
+                        <i class="am-icon-rss"></i>
+                      </div>
+                    </li>
+                   
+                  </ul>
+
+                </div>
+              </div>
+            </nav>
+
+          </div>
+        </div>
+        <div class="am-u-sm-5 am-u-end">
+          <div class="m-logo">
+            <a href=""><img src="../assets/images/logo.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <!--mobile header end-->
+    </div>
+
+
+
+
+    <!--===========layout-container================-->
+    <div class="layout-container">
+     
+         <img src="../assets/images/about/join-banner.jpg"  class="am-img-responsive"  alt="">
+      
+
+      <div class="breadcrumb-box">
+        <div class="am-container">
+          <ol class="am-breadcrumb">
+            <li><a href="../index.html">首页 </a></li>
+            <li class="am-active">加盟 </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="section">
+      <div class="container">
+        <div class="section--header">
+        	<hgroup data-am-scrollspy="{animation:'slide-bottom', delay: 107}">
+          <h2 class="section--title">我们的优势</h2>
+          <!--<p><span class="am-icon-home am-icon-md"></span> </p>-->
+          <p class="section--description">
+          采用国际领先的定位算法，支持蓝牙/WiFi/GPS多方式混合定位，精度国内领先。
+          </p>
+          </hgroup>
+        </div>
+        
+    
+       
+         
+        
+    
+        <div class="product2-main">
+          <div class="am-g">
+            <div class="am-u-md-3 am-u-sm-6" style="text-align: center; padding-top: 50px;" >
+            		<hgroup data-am-scrollspy="{animation:'slide-bottom', delay: 107}">
+              <img src="../assets/images/product/product2/product2_icon_1.png" alt="" />
+              
+              <h3>品牌形象</h3>
+              <p style="font-size: 14px;">
+               公司提供强大的品牌宣传，每年定期参加上海的大型展会各类活动，与我们的合作保证您的合作物有所值。
+              </p>
+             <!-- <a>了解更多</a>-->
+             </hgroup>
+            </div>
+            <div class="am-u-md-3 am-u-sm-6" style="text-align: center; padding-top: 50px;">
+            	<hgroup data-am-scrollspy="{animation:'slide-bottom', delay: 107}">
+              <img src="../assets/images/product/product2/product2_icon_2.png" alt="" />
+              <h3>投资成本</h3>
+              <p style="font-size: 14px;">
+                系统搭建于wifi网络，本身的兼容性好，可重复利用开发，其实际投入远小于收获。
+              </p>
+         </hgroup>
+            </div>
+            <div class="am-u-md-3 am-u-sm-6" style="text-align: center; padding-top: 50px;">
+            	<hgroup data-am-scrollspy="{animation:'slide-bottom', delay: 107}">
+              <img src="../assets/images/product/product2/product2_icon_3.png" alt="" />
+              <h3>服务</h3>
+              <p style="font-size: 14px;">
+               公司可将从设计、施工到售后给予专业到位的服务，客户满意是我们公司的最高标准。
+              </p>
+              </hgroup>
+            </div>
+            <div class="am-u-md-3 am-u-sm-6" style="text-align: center; padding-top: 50px;">
+            	<hgroup data-am-scrollspy="{animation:'slide-bottom', delay: 107}">
+              <img src="../assets/images/product/product2/product2_icon_4.png" alt="" />
+              <h3>技术培训</h3>
+              <p style="font-size: 14px;">
+                公司会派遣资深的培训专员为您提供培训 ，通过使用前的培训，落实保证您真正的掌握我们系统的管理。
+              </p>
+             </hgroup>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="section">
+      <div class="container">
+        <div class="section--header">
+					<h2 class="section--title">加盟我们</h2>
+					<p class="section--description">
+						
+						<br>   懋特现诚招室内定位系统的集成商和代理商包括室内定位系统与配套产业的集成，和室内定位整体解决方案的代理 
+					</p>
+				</div>
+
+        <div class="join-container">
+          <div class="am-g">
+            <div class="am-u-md-3">
+              <div class="careers--articles">
+									<h3 class="careers--subtitle"></h3>
+									<div class="careers_articles">
+										<div class="careers_article">
+											<i class="careers_article--icon am-icon-file-o "></i>
+											<h3 class="careers_article--title">加盟流程 </h3>
+											<div class="careers_article--text">
+												<p>
+													
+
+
+    具备申请人条件<br />
+    索取《加盟申请表》、公司相关资料<br />
+    提交上述资料给公司总部<br />
+    总部审核<br />
+    通过总部全面评估申请人加盟资格，获得准加盟商资格<br />
+    与总部签订《加盟合同书》<br />
+    业务管理培训<br />
+    营业执照及相关手续的办理<br />
+
+
+												</p>
+											</div>
+									
+										</div>
+									
+									
+									</div>
+								</div>
+            </div>
+
+            <div class="am-u-md-9">
+              <h3 class="careers--subtitle">我们正在寻找代理商:</h3>
+              <div class="careers--vacancies">
+                <div class="am-panel-group" id="accordion">
+                  <div class="am-panel am-panel-default">
+                    <div class="am-panel-hd">
+                      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-1'}">
+                     如何成为代理商
+                      </h4>
+                    </div>
+                    <div id="do-not-say-1" class="am-panel-collapse am-collapse am-in">
+                      <div class="am-panel-bd" style="font-size: 14px;">
+                        <div class="vacancies--item_content js-accordion--pane_content" style="">
+														<h5>条件描述: </h5>
+														<p>
+														1、具有合法的网络商务经营资格的公司或自然人；
+														</p>
+														<p>
+													2、具有一定的资金实力和独立的市场开发能力，拥有健全的市场网络和市场运作经验；
+														</p>
+														<p>
+														 3、具有良好的商业信誉和职业道德，维护公司在全国统一的产品形象和企业形象，尊重其他经销区域利益；
+														</p>
+                            <p>
+                             4、具有长远的市场规划和强烈的事业心；
+                            </p>
+                            <p>
+                            5、有市场营销、稳定渠道 的团队者优先；
+                            </p>
+                            <p>
+                          6、熟悉当地市场，具有较强的市场推广能力和良好的地政关系；
+                            </p>
+                            <p>
+                           
+                            </p>
+
+														
+													</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="am-panel am-panel-default">
+                    <div class="am-panel-hd">
+                      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-2'}">
+                       代理商的职责
+                      </h4>
+                    </div>
+                    <div id="do-not-say-2" class="am-panel-collapse am-collapse">
+                      <div class="am-panel-bd" style="font-size: 14px;">
+                        <h5>职责描述:</h5>
+                        <p>
+                        1、遵守并执行公司制定的产品销售价格体系；
+                        </p>
+                        <p>
+                     2、  限于所在代理加盟区域的范围内销售，不得跨区域销售、不得串货；
+                        </p>
+                        <p>
+                   3、   能配合公司完成各种促销活动及产品售前、售中、售后的服务；
+                        </p>
+                        <p>
+                      4、统一服从总部管理，主动维护公司的终端形象及产品形象；
+                        </p>
+                    
+                        <p>
+                         
+                        </p>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="am-panel am-panel-default">
+                    <div class="am-panel-hd">
+                      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-3'}">
+                      代理商的扶持政策
+                      </h4>
+                    </div>
+                    <div id="do-not-say-3" class="am-panel-collapse am-collapse">
+                      <div class="am-panel-bd" style="font-size: 14px;">
+                        <h5>政策描述:</h5>
+                        <p>
+                     1、  维护代理商权利：对代理商实行严格的区域保护政策，一个区域只设置一个代理机构，产品由专人进行市场监督管理，防止恶意窜货；
+                        </p>
+                        <p>
+              2、      市场操作指导：提供成功独特之市场操作方案、市场操作锦囊；
+                        </p>
+                        <p>
+                       3、  品牌形象宣传：精美、齐全的终端宣传物料；
+                        </p>
+                        <p>
+                     4、   培训服务体系：专业营销团队全程助销指导，并提供完善的营销培训体系；
+                        </p>
+                        <p>
+                  5、   独特市场开拓：完善及实力强大的营销团队的支持配合，针对不同目的而设计的市场推广；
+                        </p>
+                       
+                      </div>
+
+                    </div>
+                  </div>
+                  
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<div class="section" style="margin-top:0px;background-image: url('../assets/images/pattern-light.png');">
+    <div class="container">
+      <!--index-container start-->
+      <div class="index-container">
+        <div class="am-g">
+          <div class="am-u-md-4">
+            <div class="contact_card">
+							<i style="color:#59bcdb" class="contact_card--icon am-icon-phone"></i>
+							<strong class="contact_card--title">联系我们</strong>
+							<p class="contact_card--text">请拨打电话 <br>  021-64361545<br>  周一至周五  9:00~18:00</p>
+            
+						</div>
+          </div>
+          <div class="am-u-md-4">
+            <div class="contact_card">
+							<i style="color:#59bcdb" class="contact_card--icon am-icon-envelope-o"></i>
+							<strong class="contact_card--title">联系邮箱</strong>
+							<p class="contact_card--text">请发送邮件到邮箱 <br> <a href="#">daiwj@intmote.com
+</a>, <br> 我们会及时回复</p>
+             
+						</div>
+          </div>
+          <div class="am-u-md-4">
+            <div class="contact_card">
+							<i style="color:#59bcdb" class="contact_card--icon am-icon-map-marker"></i>
+							<strong class="contact_card--title">联系地址</strong>
+							<p class="contact_card--text">上海市徐汇区 <br> <strong>漕宝路86号 </strong><br> 光大会展中心F座2201  </p>
+              
+						</div>
+          </div>
+        </div>
+      </div>
+      <!--index-container end-->
+    </div>
+  </div>
+
+    <!--===========layout-footer================-->
+    <div class="layout-footer">
+    <div class="footer">
+      <div style="background-color:#464646" class="footer--bg"></div>
+      <div class="footer--inner">
+        <div class="container">
+          <div class="footer_main">
+            <div class="am-g">
+              <div class="am-u-md-3 ">
+                <div class="footer_main--column">
+                  <strong class="footer_main--column_title">关于我们</strong>
+                  <div class="footer_about">
+                      <p class="footer_about--text"  style="padding: padding: 0 0 1px;">
+                        懋特(上海)物联网科技有限公司是专业物联网应用解决方案提供商，也是业界领先的室内位置信息数据和解决方案的提供商。我们采用全球领先的室内外定位融合技术，为客户提供高品质的产品和服务。
+                      </p>
+                    
+                      	 <div class="am-u-md-6 ">   <img src="../assets/images/erweima.png" class="am-img-responsive"/></div>
+                      	  <div class="am-u-md-6 ">   <img src="../assets/images/erweima.png" class="am-img-responsive"/></div>
+            
+                    
+                    </div>
+                </div>
+              </div>
+
+             <div class="am-u-md-3 ">
+                <div class="footer_main--column">
+                  <strong class="footer_main--column_title">产品中心</strong>
+                  <ul class="footer_navigation">
+											<li class="footer_navigation--item"><a href="product1.html#abc0" class="footer_navigation--link">Anycool 智能手环</a></li>
+											<li class="footer_navigation--item"><a href="product1.html#abc1" class="footer_navigation--link">Anylink 定位系统</a></li>
+											<li class="footer_navigation--item"><a href="product1.html#abc2" class="footer_navigation--link">Anyreal 室内地图</a></li>
+											<li class="footer_navigation--item"><a href="product1.html#abc3" class="footer_navigation--link">Anycute  无线 AP 和 蓝牙</a></li>
+											<li class="footer_navigation--item"><a href="product1.html#abc4" class="footer_navigation--link">Anycloud  数据分析系统</a></li>
+										  <li class="footer_navigation--item"><a href="product1.html#abc5" class="footer_navigation--link">Anycool 电子标签</a></li>
+										</ul>
+                </div>
+              </div>
+
+              <div class="am-u-md-3 ">
+                  <div class="footer_main--column">
+										<strong class="footer_main--column_title">技术支持</strong>
+										<ul class="footer_navigation">
+											<li class="footer_navigation--item"><a href="solution.html#yanglao" class="footer_navigation--link">养老院解决方案</a></li>
+											<li class="footer_navigation--item"><a href="solution.html#wuliu" class="footer_navigation--link">物流解决方案</a></li>
+											<li class="footer_navigation--item"><a href="solution.html#jingqu" class="footer_navigation--link">景区的解决方案</a></li>
+											<li class="footer_navigation--item"><a href="solution.html#shangchang" class="footer_navigation--link">商场解决方案</a></li>
+											<li class="footer_navigation--item"><a href="solution.html#yiyuan" class="footer_navigation--link">医院解决方案</a></li>
+										</ul>
+									</div>
+                </div>
+                
+             <div class="am-u-md-3 ">
+                  <div class="footer_main--column">
+										<strong class="footer_main--column_title">详细联系方式</strong>
+										<ul class="footer_contact_info">
+											<li class="footer_contact_info--item"><i class="am-icon-phone"></i><span>服务专线： 021-64361545</span></li>
+											<li class="footer_contact_info--item"><i class="am-icon-envelope-o"></i><span>daiwj@intmote.com
+</span></li>
+											<li class="footer_contact_info--item"><i class="am-icon-map-marker"></i><span>上海市徐汇区漕宝路86号上海光大会展中心F座2201室</span></li>
+											
+										</ul>
+									</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  <script src="../assets/js/jquery-2.1.0.js" charset="utf-8"></script>
+  <script src="../assets/js/amazeui.js" charset="utf-8"></script>
+  <script "text/javascript"> 
+var jiathis_config = { 
+	pic:"http://www.intmote.com/wp-content/themes/site/images/logo.png"
+} 
+</script> 
+<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?type=left&amp;btn=l3.gif" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+<!--返回顶部-->
+<script type="text/javascript" src="http://hovertree.com/ziyuan/jquery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://hovertree.com/texiao/yestop/inc/jquery.yestop.js"></script>
+<script type="text/javascript">
+     $(document).ready(function () { $.fn.yestop(); })
+</script>
+
+
+
+
+
+<!--cnzz戴站点统计-->
+<script type="text/javascript">var cnzz_protocol = (("http:" == document.location.protocol) ? " http://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261973863'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1261973863' type='text/javascript'%3E%3C/script%3E"));</script>
+<!--lijunfei-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</body>
+
+</html>
+  
